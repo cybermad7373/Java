@@ -3,7 +3,7 @@ package Patterns;
 public class Pattern2 {
 	public static void main(String[] args)
 	{
-		int n = 4 , count = 1;
+		int n = 4;
 		//DIAMOND 
 		
 //		for(int i = 0 ;i< n;i++)
