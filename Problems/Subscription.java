@@ -13,7 +13,6 @@ public class Subscription {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int[][] arr = new int[num][2];
-        int[] val = new int[num];
         for(int i = 0;i<num;i++)
         {
             for(int j=0;j<2;j++)
@@ -29,14 +28,12 @@ public class Subscription {
                 if(r > 0) {
                     q++;
                 }
-                // System.out.println(q * arr[i][1]); 
-                val[i] = q * arr[i][1];
+                System.out.println(q * arr[i][1]); 
+            }
         }
         
-            for(int l=0;l<num;l++)
-            {
-                System.out.println(val[l]+" ");
-            }
+        
+            
         }
     }
     

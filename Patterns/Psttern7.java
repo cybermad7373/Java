@@ -1,5 +1,5 @@
 package Patterns;
-
+// import java.
 public class Psttern7 {
 
 	public static void main(String[] args) {
